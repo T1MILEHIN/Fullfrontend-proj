@@ -27,6 +27,20 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   color: #222;
 }
 
+a.on-it {
+  position: relative;
+}
+
+a.on-it::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2.5px;
+  background-color: #223a66;
+}
+
 h1, .h1 {
   font-size: 2.5rem;
 }

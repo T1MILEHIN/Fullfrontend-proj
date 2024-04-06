@@ -16,7 +16,7 @@
 }
 .testimonial-block{
 	position: relative;
-	margin-bottom: 20px;
+	{% comment %} margin-bottom: 20px; {% endcomment %}
 
 	p{
 		background: $light;
